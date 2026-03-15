@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DMTshow.kz — Твоя сцена, твоя слава, твой миллион!</title>
+  <meta name="description" content="DMTshow — революционная площадка для комедиантов и талантов. Регистрируйся, пройди отборочный тур и выиграй 1 000 000 тенге!" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── HEADER ── -->
+  <header class="header">
+    <a href="#" class="logo">DMT<span>show</span></a>
+    <nav class="nav">
+      <button class="btn btn-outline" onclick="openModal('infoModal')">Узнать больше</button>
+      <button class="btn btn-gold" onclick="openModal('registerModal')">👤 Профиль</button>
+    </nav>
+  </header>
+
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">🎤 Сезон 2025 открыт</div>
+      <h1>DMT<span class="accent">show</span></h1>
+      <p class="hero-subtitle">Революционная площадка для комедиантов, актёров и КВНщиков</p>
+
+      <div class="hero-prize">
+        <span class="prize-icon">🏆</span>
+        <div>
+          <div class="prize-amount">1 000 000 ₸</div>
+          <div class="prize-label">Главный приз<br>победителю</div>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <button class="btn btn-red btn-lg" onclick="openModal('registerModal')">
+          🚀 Зарегистрироваться
+        </button>
+        <button class="btn btn-outline btn-lg" onclick="openModal('infoModal')">
+          Узнать больше
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STAGES ── -->
+  <section class="section section-alt" id="stages">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Как это работает</div>
+        <h2 class="section-title">4 этапа до победы</h2>
+        <p class="section-desc">Каждый этап — шаг к миллиону. Покажи свой талант и стань легендой DMTshow!</p>
+      </div>
+      <div class="stages-grid">
+        <div class="stage-card">
+          <div class="stage-number">01</div>
+          <div class="stage-icon">📝</div>
+          <div class="stage-title">Регистрация</div>
+          <p class="stage-desc">Заполни простую форму — ФИО, возраст, город, телефон. Это займёт 2 минуты, но откроет двери в твоё будущее!</p>
+        </div>
+        <div class="stage-card">
+          <div class="stage-number">02</div>
+          <div class="stage-icon">🎭</div>
+          <div class="stage-title">Отборочный тур</div>
+          <p class="stage-desc">Покажи свой лучший номер. Жюри оценит твой талант, оригинальность и харизму. Только лучшие пройдут дальше!</p>
+        </div>
+        <div class="stage-card">
+          <div class="stage-number">03</div>
+          <div class="stage-icon">⚔️</div>
+          <div class="stage-title">Comedy Battle</div>
+          <p class="stage-desc">Сразись с другими комедиантами в эпических баттлах. Рассмеши публику, покажи стиль, докажи, что ты король сцены!</p>
+        </div>
+        <div class="stage-card">
+          <div class="stage-number">04</div>
+          <div class="stage-icon">👑</div>
+          <div class="stage-title">Финал</div>
+          <p class="stage-desc">Последний бой за главный приз — 1 000 000 тенге. Здесь решается всё — кто станет легендой DMTshow!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── BENEFITS ── -->
+  <section class="section" id="benefits">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Что ты получишь</div>
+        <h2 class="section-title">Твой путь к славе</h2>
+        <p class="section-desc">DMTshow — это не просто конкурс. Это твой шанс изменить жизнь навсегда!</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <span class="benefit-icon">🌟</span>
+          <h3 class="benefit-title">Известность</h3>
+          <p class="benefit-desc">Выступай перед тысячами зрителей. Твоё имя будет на устах всей страны. Социальные сети, ТВ, радио — все будут говорить о тебе!</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">💼</span>
+          <h3 class="benefit-title">Карьера</h3>
+          <p class="benefit-desc">Контракты с ТВ-каналами, приглашения на крупные мероприятия, сотрудничество с брендами. DMTshow — стартовая площадка для профессиональной карьеры!</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">❤️</span>
+          <h3 class="benefit-title">Любовь зрителей</h3>
+          <p class="benefit-desc">Фанаты, подписчики, поклонники. Ты станешь кумиром, и люди будут ждать твоих новых номеров!</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">💰</span>
+          <h3 class="benefit-title">Денежные призы</h3>
+          <p class="benefit-desc">Каждый этап — это деньги. Но главная награда — <strong>1 000 000 тенге</strong> для победителя финала!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── REQUIREMENTS ── -->
+  <section class="section section-alt" id="requirements">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Требования</div>
+        <h2 class="section-title">Кто может участвовать?</h2>
+        <p class="section-desc">Требования минимальные — нужен лишь талант и желание победить!</p>
+      </div>
+      <ul class="req-list">
+        <li class="req-item">
+          <span class="req-check">✓</span>
+          <span class="req-text">
+            <strong>Возраст: от 18 лет</strong>
+            Молодёжь и опытные артисты одинаково приветствуются
+          </span>
+        </li>
+        <li class="req-item">
+          <span class="req-check">✓</span>
+          <span class="req-text">
+            <strong>Любое гражданство</strong>
+            Участники из всех стран СНГ приветствуются
+          </span>
+        </li>
+        <li class="req-item">
+          <span class="req-check">✓</span>
+          <span class="req-text">
+            <strong>Талант</strong>
+            Юмор, актёрское мастерство, оригинальность
+          </span>
+        </li>
+        <li class="req-item">
+          <span class="req-check">✓</span>
+          <span class="req-text">
+            <strong>Желание победить</strong>
+            Стремление выиграть и стать звездой
+          </span>
+        </li>
+        <li class="req-item">
+          <span class="req-check">✓</span>
+          <span class="req-text">
+            <strong>Смелость</strong>
+            Готовность показать себя миру
+          </span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ── WHY US ── -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Почему DMTshow</div>
+        <h2 class="section-title">Честно. Профессионально. Масштабно.</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-item">
+          <div class="why-icon">🎭</div>
+          <div class="why-title">Честный отбор — только талант</div>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">🎬</div>
+          <div class="why-title">Профессиональная съёмка в HD</div>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">📱</div>
+          <div class="why-title">Трансляции — миллионы зрителей</div>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">🤝</div>
+          <div class="why-title">Поддержка команды для каждого</div>
+        </div>
+        <div class="why-item">
+          <div class="why-icon">🌍</div>
+          <div class="why-title">Международная платформа</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="cta-section">
+    <div class="container">
+      <h2 class="cta-title">Готов стать <span class="gold">легендой</span>?</h2>
+      <p class="cta-desc">Каждый великий комедиант когда-то был новичком. Это может быть ТЫ!</p>
+
+      <div class="cta-steps">
+        <div class="cta-step">
+          <span class="cta-step-num">1</span>
+          <span>Регистрация</span>
+        </div>
+        <span class="cta-step-arrow">→</span>
+        <div class="cta-step">
+          <span class="cta-step-num">2</span>
+          <span>Отбор</span>
+        </div>
+        <span class="cta-step-arrow">→</span>
+        <div class="cta-step">
+          <span class="cta-step-num">3</span>
+          <span>Comedy Battle</span>
+        </div>
+        <span class="cta-step-arrow">→</span>
+        <div class="cta-step">
+          <span class="cta-step-num">4</span>
+          <span>Финал</span>
+        </div>
+        <span class="cta-step-arrow">→</span>
+        <div class="cta-step">
+          <span class="cta-step-num">🏆</span>
+          <span>1 000 000 ₸</span>
+        </div>
+      </div>
+
+      <button class="btn btn-gold btn-lg" onclick="openModal('registerModal')">
+        🎤 Зарегистрироваться сейчас
+      </button>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">DMTshow.kz</div>
+      <p class="footer-tagline">Твоя сцена. Твоя слава. Твой миллион.</p>
+      <div class="footer-bottom">
+        © 2025 DMTshow.kz — Все права защищены
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════
+       MODAL: УЗНАТЬ БОЛЬШЕ
+  ══════════════════════════════════════ -->
+  <div class="modal-overlay" id="infoModal" role="dialog" aria-modal="true" aria-labelledby="infoModalTitle">
+    <div class="modal">
+      <div class="modal-close">
+        <button onclick="closeModal('infoModal')" aria-label="Закрыть">&times;</button>
+      </div>
+      <div class="modal-body">
+
+        <!-- Header -->
+        <div class="info-modal-header">
+          <span class="emoji">🎤</span>
+          <h2 id="infoModalTitle">DMTshow — Твой путь к славе и миллиону!</h2>
+          <p>Революционная площадка для комедиантов, актёров, КВНщиков и всех, кто умеет смешить людей</p>
+        </div>
+
+        <!-- Prize banner -->
+        <div class="info-prize-banner">
+          <span class="emoji">🏆</span>
+          <h3>1 000 000 ₸</h3>
+          <p>Главный приз победителю — это реальные деньги за твой талант!</p>
+        </div>
+
+        <!-- What is DMTshow -->
+        <div class="info-section">
+          <div class="info-section-title">Что такое DMTshow</div>
+          <p style="font-size:14px; color:var(--text-muted); line-height:1.7;">
+            DMTshow — это не просто конкурс. Это твой билет в большой мир развлечений!
+            Площадка для <strong style="color:var(--text)">настоящих талантов</strong>, где каждый участник получает
+            возможность показать свой юмор миллионам, построить карьеру в развлекательной индустрии
+            и завоевать признание зрителей.
+          </p>
+        </div>
+
+        <!-- Stages -->
+        <div class="info-section">
+          <div class="info-section-title">4 этапа до победы</div>
+          <ul class="info-stages-list">
+            <li class="info-stage-item">
+              <span class="info-stage-num">1</span>
+              <div class="info-stage-content">
+                <h4>📝 Регистрация</h4>
+                <p>Заполни простую форму — ФИО, возраст, город, телефон. Займёт 2 минуты, но откроет двери в твоё будущее!</p>
+              </div>
+            </li>
+            <li class="info-stage-item">
+              <span class="info-stage-num">2</span>
+              <div class="info-stage-content">
+                <h4>🎭 Отборочный тур</h4>
+                <p>Покажи свой лучший номер. Жюри оценит твой талант, оригинальность и харизму. Только лучшие пройдут дальше!</p>
+              </div>
+            </li>
+            <li class="info-stage-item">
+              <span class="info-stage-num">3</span>
+              <div class="info-stage-content">
+                <h4>⚔️ Comedy Battle</h4>
+                <p>Сразись с другими комедиантами в эпических баттлах. Рассмеши публику, покажи свой стиль, докажи, что ты король сцены!</p>
+              </div>
+            </li>
+            <li class="info-stage-item">
+              <span class="info-stage-num">4</span>
+              <div class="info-stage-content">
+                <h4>👑 Финал</h4>
+                <p>Последний бой за главный приз. Здесь решается всё — кто станет легендой DMTshow!</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Benefits -->
+        <div class="info-section">
+          <div class="info-section-title">Что ты получишь</div>
+          <div class="info-benefits-grid">
+            <div class="info-benefit">
+              <span class="info-benefit-icon">🌟</span>
+              <div class="info-benefit-text">
+                <h4>Известность</h4>
+                <p>Выступай перед тысячами. Соцсети, ТВ, радио — все будут говорить о тебе!</p>
+              </div>
+            </div>
+            <div class="info-benefit">
+              <span class="info-benefit-icon">💼</span>
+              <div class="info-benefit-text">
+                <h4>Карьера</h4>
+                <p>Контракты с ТВ-каналами, крупные мероприятия, сотрудничество с брендами</p>
+              </div>
+            </div>
+            <div class="info-benefit">
+              <span class="info-benefit-icon">❤️</span>
+              <div class="info-benefit-text">
+                <h4>Любовь зрителей</h4>
+                <p>Фанаты, подписчики, поклонники — ты станешь кумиром страны</p>
+              </div>
+            </div>
+            <div class="info-benefit">
+              <span class="info-benefit-icon">💰</span>
+              <div class="info-benefit-text">
+                <h4>Денежные призы</h4>
+                <p>Каждый этап — деньги. Главный приз — 1 000 000 тенге!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Requirements -->
+        <div class="info-section">
+          <div class="info-section-title">Требования к участникам</div>
+          <ul class="info-req-list">
+            <li class="info-req-item"><span class="check">✓</span> Возраст: от 18 лет</li>
+            <li class="info-req-item"><span class="check">✓</span> Любое гражданство (СНГ)</li>
+            <li class="info-req-item"><span class="check">✓</span> Талант и оригинальность</li>
+            <li class="info-req-item"><span class="check">✓</span> Желание выиграть</li>
+            <li class="info-req-item"><span class="check">✓</span> Смелость показать себя</li>
+            <li class="info-req-item"><span class="check">✓</span> Актёрское мастерство</li>
+          </ul>
+        </div>
+
+        <!-- Why us -->
+        <div class="info-section">
+          <div class="info-section-title">Почему выбирают DMTshow</div>
+          <ul class="info-why-list">
+            <li class="info-why-item"><span class="icon">🎭</span> Честный отбор — жюри оценивает только талант</li>
+            <li class="info-why-item"><span class="icon">🎬</span> Профессиональная съёмка всех выступлений в HD качестве</li>
+            <li class="info-why-item"><span class="icon">📱</span> Трансляции в соцсетях — миллионы зрителей видят тебя</li>
+            <li class="info-why-item"><span class="icon">🤝</span> Поддержка команды — мы верим в каждого участника</li>
+            <li class="info-why-item"><span class="icon">🌍</span> Международная платформа — твой талант узнает весь мир</li>
+          </ul>
+        </div>
+
+        <!-- CTA -->
+        <button class="btn btn-gold btn-lg btn-full"
+                onclick="closeModal('infoModal'); openModal('registerModal');">
+          🚀 Зарегистрироваться сейчас
+        </button>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       MODAL: РЕГИСТРАЦИЯ / ПРОФИЛЬ
+  ══════════════════════════════════════ -->
+  <div class="modal-overlay register-modal" id="registerModal" role="dialog" aria-modal="true" aria-labelledby="registerModalTitle">
+    <div class="modal">
+      <div class="modal-close">
+        <button onclick="closeModal('registerModal')" aria-label="Закрыть">&times;</button>
+      </div>
+      <div class="modal-body">
+
+        <!-- Form section -->
+        <div id="formSection">
+          <div class="reg-header">
+            <span class="emoji">👤</span>
+            <h2 id="registerModalTitle">Регистрация участника</h2>
+            <p>Заполни форму — и начни свой путь к миллиону!</p>
+          </div>
+
+          <form id="regForm" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="fullName">ФИО *</label>
+              <input
+                class="form-input"
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Иванов Иван Иванович"
+                autocomplete="name"
+              />
+              <div class="form-error" id="fullNameError"></div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="age">Возраст *</label>
+                <input
+                  class="form-input"
+                  type="number"
+                  id="age"
+                  name="age"
+                  placeholder="25"
+                  min="18"
+                  max="80"
+                />
+                <div class="form-error" id="ageError"></div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="city">Город *</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="city"
+                  name="city"
+                  placeholder="Алматы"
+                  autocomplete="address-level2"
+                />
+                <div class="form-error" id="cityError"></div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="phone">Телефон *</label>
+              <input
+                class="form-input"
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+7 777 123 45 67"
+                autocomplete="tel"
+              />
+              <div class="form-error" id="phoneError"></div>
+              <p class="form-hint">Мы позвоним вам для подтверждения участия</p>
+            </div>
+
+            <div class="form-consent">
+              <input type="checkbox" id="consent" name="consent" />
+              <label for="consent">
+                Я даю согласие на обработку персональных данных и соглашаюсь с условиями участия в конкурсе DMTshow
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-gold btn-lg btn-full">
+              🎤 Подать заявку на участие
+            </button>
+          </form>
+        </div>
+
+        <!-- Success section -->
+        <div class="success-state" id="successSection">
+          <span class="success-icon">🎉</span>
+          <h3 class="success-title">Заявка принята!</h3>
+          <p class="success-desc">
+            Отлично! Твоя заявка успешно отправлена.<br>
+            Наша команда свяжется с тобой в ближайшее время.<br><br>
+            Готовься к отборочному туру — <strong>твоя звезда ждёт!</strong>
+          </p>
+          <button class="btn btn-outline btn-lg" onclick="closeModal('registerModal')">
+            ✓ Закрыть
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
